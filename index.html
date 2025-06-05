@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversor de Unidades</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de Unidades</h1>
+        <div class="buttons">
+            <button id="btn-length">Longitud</button>
+            <button id="btn-weight">Peso</button>
+            <button id="btn-temperature">Temperatura</button>
+        </div>
+
+        <div id="section-length" class="converter-section">
+            <h2>Conversión de Longitud</h2>
+            <div class="converter">
+                <div class="input-group">
+                    <select id="length-from">
+                        <option value="m">Metros</option>
+                        <option value="km">Kilómetros</option>
+                        <option value="cm">Centímetros</option>
+                        <option value="mm">Milímetros</option>
+                        <option value="in">Pulgadas</option>
+                        <option value="ft">Pies</option>
+                        <option value="yd">Yardas</option>
+                        <option value="mi">Millas</option>
+                    </select>
+                    <input type="number" id="length-input-1" placeholder="Valor">
+                </div>
+                <span class="arrow">&#8646;</span>
+                <div class="input-group">
+                    <select id="length-to">
+                        <option value="m">Metros</option>
+                        <option value="km">Kilómetros</option>
+                        <option value="cm">Centímetros</option>
+                        <option value="mm">Milímetros</option>
+                        <option value="in">Pulgadas</option>
+                        <option value="ft">Pies</option>
+                        <option value="yd">Yardas</option>
+                        <option value="mi">Millas</option>
+                    </select>
+                    <input type="number" id="length-input-2" placeholder="Resultado">
+                </div>
+            </div>
+        </div>
+
+        <div id="section-weight" class="converter-section" style="display:none;">
+            <h2>Conversión de Peso</h2>
+            <div class="converter">
+                <div class="input-group">
+                    <select id="weight-from">
+                        <option value="kg">Kilogramos</option>
+                        <option value="g">Gramos</option>
+                        <option value="mg">Miligramos</option>
+                        <option value="lb">Libras</option>
+                        <option value="oz">Onzas</option>
+                    </select>
+                    <input type="number" id="weight-input-1" placeholder="Valor">
+                </div>
+                <span class="arrow">&#8646;</span>
+                <div class="input-group">
+                    <select id="weight-to">
+                        <option value="kg">Kilogramos</option>
+                        <option value="g">Gramos</option>
+                        <option value="mg">Miligramos</option>
+                        <option value="lb">Libras</option>
+                        <option value="oz">Onzas</option>
+                    </select>
+                    <input type="number" id="weight-input-2" placeholder="Resultado">
+                </div>
+            </div>
+        </div>
+
+        <div id="section-temperature" class="converter-section" style="display:none;">
+            <h2>Conversión de Temperatura</h2>
+            <div class="converter">
+                <div class="input-group">
+                    <select id="temp-from">
+                        <option value="c">Celsius</option>
+                        <option value="f">Fahrenheit</option>
+                        <option value="k">Kelvin</option>
+                    </select>
+                    <input type="number" id="temp-input-1" placeholder="Valor">
+                </div>
+                <span class="arrow">&#8646;</span>
+                <div class="input-group">
+                    <select id="temp-to">
+                        <option value="c">Celsius</option>
+                        <option value="f">Fahrenheit</option>
+                        <option value="k">Kelvin</option>
+                    </select>
+                    <input type="number" id="temp-input-2" placeholder="Resultado">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
