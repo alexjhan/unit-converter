@@ -20,7 +20,8 @@ ConversorUnidades/
 └── README.md # Documentación del proyecto
 ## 📷 Vista Previa
 
-> (Puedes insertar aquí una imagen o gif de la aplicación en funcionamiento)
+> ![image](https://github.com/user-attachments/assets/a6ab11a3-9218-453b-9da4-97327548a083)
+
 
 ## 🧠 ¿Cómo funciona?
 
